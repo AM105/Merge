@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.front{
+    background-image: url(/src/image/bech.jpg);
+    background-image:no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+ 
+}
+
+.over{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    color: black;
+
+}
+
+.main{
+    position: relative;
+    top: 70%;
+    right: 25%;
+
+}
+
+
+ button{
+
+    border: 2px solid;
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+    width: 190px;
+    border-radius: 5px solid;
+    margin-left: -290px;
+    border-radius: 15px;
+    height: 60px;
+    margin-top: 40px;
+
+
+    
+}
+
+button:hover{
+    color:blue;
+}
+
+.sh{
+    text-align: center;
+    margin-top: 140px;
+    font-size: 35px;
+    letter-spacing: 12px;
+    color: black;
+}
+
+ .card-body{
+    display: block;
+    position: relative;
+    margin: 20px;
+    margin-top: -32px;
+    background-color:whitesmoke;
+    white-space: normal;
+    width: 250px;
+    padding: 16px;
+    border-radius: 3px;
+} 
+
+
+
+.bd{
+    width: 100%;
+
+}
+
+.bd img{
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+    float: left;
+}
+
+
+.same{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+
+.same .card{
+    width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 50px;
+
+}
+
+.card{
+    height: 449px;
+}
+
+.mor{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 250px;
+    justify-content: space-between;
+    letter-spacing: 12px;
+}
+
+#carouselExampleDark{
+    margin-top: 2px;
+}
+
+.carousel-inner img{
+   
+     margin-top: 100px;
+     width: 330px;
+     height: 210px;
+     margin-left: 4%;
+     margin-bottom: 100px;
+     cursor: pointer;
+     transition: transform 1s;
+     box-sizing: 1px 1px 1px 1px;
+     float: left;
+     border-radius: 20px;
+}
+
+.carousel-inner img:hover{
+
+   transform: scale(1.3);
+
+}
+.carousel-control-prev-icon{
+    margin-top: 300px;
+    position: absolute;
+}
+.set{
+    background-image: url(/src/image/bech.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 20px;
+
+
+}
+
+.ass{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 440px;
+    font-size: 20px;
+    border: 2px solid black;
+    color: aliceblue;
+    background-color:lightslategrey;
+}
+
+.ass p{
+    font-size: 70px;
+
+}
+
+.ass button{
+    background-color:black;
+    color: aliceblue;
+    margin-left: 50px;
+    width: 35%;
+    height: 60px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.man{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 100px;
+    letter-spacing: 3px;
+}
+
+.level{
+    width: 100%;
+}
+
+.share{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+#app {
+    height: 100%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .one{
+    background-image: url(/src/image/bech.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 80px;
+
+
+}
+
+.two{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 400px;
+    font-size: 20px;
+    border: 2px solid black;
+    color: aliceblue;
+    background-color:black;
+    width: 49%;
+    height: 230px;
+}
+
+.two p{
+    font-size: 45px;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+
+.two button{
+    background-color:black;
+    color: aliceblue;
+    margin-left: 70px;
+    width: 25%;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.extra{
+    margin-top: 80px;
+}
+
+.pure{
+    margin-top: 80px;
+}
+
+.stud{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 120px;
+    letter-spacing: 10px;
+}
+
+.classify{
+    margin-top: 80px;
+}
+
+.fill{
+
+    background-image: url(/src/image/outing.jpg);
+    background-image:no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 70px;
+
+}
+
+
+.box{
+    width: 100%;
+}
+
+.box{
+    text-align: center;
+    border: 3px solid;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    top: 15%;
+    height: 400px;
+    background-color: whitesmoke;
+}
+
+.value{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.pick{
+    font-size: 35px;
+    color: black;
+}
+
+.in input{
+    border: 2px solid;
+    width: 400px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.btn button{
+    width: 700px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 22px;
+}
+
+.adding{
+    margin-top: 40px;
+    background-image: url(/src/image/fit.jpg);
+    background-repeat:no-repeat;
+    /* width: 100%; */
+    background-size:30%;
+    height: 600px;
+   padding: 100px;
+   z-index: -1;
+   margin-left: 200px;
+ 
+  
+   
+  
+   
+   
+
+}
+
+.kill{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.loop{
+    color: #fff;
+    font-size: 22px;
+    margin-top: 60px;
+    margin-left: -30px;
+    border: 2px solid black;
+    background-color: black;
+    width: 170px;
+}
+
+ .solute{
+      
+    margin-left: 300px;
+    position: relative;
+    bottom: 400px;
+    width: 800px;
+    
+}
+
+ /* .card{
+    width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 10px;
+    height: 400px;
+} */
+
+.card-main{
+     display: block;
+     position: relative; 
+     margin: 0 auto; 
+     margin-top:-1px;
+    background-color:whitesmoke;
+    white-space: normal;
+     width: 220px; 
+    padding: 16px;
+     border-radius: 3px;
+}
+
+.tag img{
+    width: 200px;
+    height: 300px;
+}
+
+.swiper-pagination-bullet{
+
+    background-color: black;
+    position: relative;
+
+
+
+}
